@@ -41,7 +41,7 @@ export default function MyProfile() {
 
   useEffect(() => {
     if (!email) return;
-    fetch(`https://hifi-login-api.onrender.com/api/profile?email=${encodeURIComponent(email)}`)
+    fetch(`http://localhost:3000/api/profile?email=${encodeURIComponent(email)}`)
       .then(res => {
         if (!res.ok) throw new Error("User not found");
         return res.json();
@@ -64,7 +64,7 @@ export default function MyProfile() {
     } else {
       payload = { email: profile.email, [apiField]: editValue };
     }
-    const res = await fetch("https://hifi-login-api.onrender.com/api/profile", {
+    const res = await fetch("http://localhost:3000/api/profile", {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
