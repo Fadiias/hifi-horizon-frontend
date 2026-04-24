@@ -2,6 +2,9 @@
 .env
 src/.env
 
+# Runtime data
+src/users.json
+
 # Logs
 logs
 *.log

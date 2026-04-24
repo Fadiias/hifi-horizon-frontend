@@ -1,0 +1,20 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Proxy /api/* to the Express backend on Render
+# Replace REPLACE_WITH_RENDER_URL after deploying the backend
+[[redirects]]
+  from = "/api/*"
+  to = "https://REPLACE_WITH_RENDER_URL/api/:splat"
+  status = 200
+  force = true
+
+# SPA fallback — send all other routes to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
