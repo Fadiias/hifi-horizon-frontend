@@ -13,11 +13,14 @@ export default function Logout() {
     <button
       onClick={handleLogout}
       style={{
-        padding: "10px",
+        padding: "10px 20px",
         borderRadius: "4px",
-        
+        background: "#FF6900",
         color: "#fff",
         border: "none",
+        cursor: "pointer",
+        fontWeight: "bold",
+        boxShadow: "0 0 10px rgba(0,0,0,0.1)",
       }}
     >
       Logout

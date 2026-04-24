@@ -7,7 +7,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { GoSmiley } from "react-icons/go";
-import { Link, NavLink } from "react-router";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (

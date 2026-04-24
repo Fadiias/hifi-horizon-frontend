@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "server": "node src/index.cjs",
+    "dev:all": "concurrently \"npm run server\" \"npm run dev\"",
     "build": "vite build",
+    "start": "node src/index.cjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -28,6 +31,7 @@
     "zod": "^3.25.67"
   },
   "devDependencies": {
+    "concurrently": "^9.1.2",
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",

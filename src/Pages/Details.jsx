@@ -1,11 +1,10 @@
-import { useParams } from "react-router";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../style/detail.css";
 import black from "/icons/black.svg";
 import Silver from "/icons/silver.svg";
 import Gold from "/icons/gold.svg";
 import { GoDotFill } from "react-icons/go";
-import { useNavigate } from "react-router-dom"; // Add this import
 
 export default function Shopdetails() {
   const { id } = useParams();

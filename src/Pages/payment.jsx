@@ -85,7 +85,7 @@ export default function Payment() {
                 fontFamily: "Arial, sans-serif",
                 boxSizing: "border-box",
                 minHeight: "100vh",
-                background: "#f7f7f7",
+                background: "#D5D5D5",
             }}
         >
             {/* Steps Progress */}
@@ -176,7 +176,7 @@ export default function Payment() {
                 </div>
             </div>
 
-            <h1 style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "20px" }}>
+            <h1 style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "20px", color: "#495464" }}>
                 Your info
             </h1>
    <h2 style={{ fontSize: "20px", fontWeight: "bold", marginBottom: "15px" }}>
@@ -221,8 +221,9 @@ export default function Payment() {
                                 style={{
                                     width: "100%",
                                     padding: "10px",
-                                    border: "1px solid #D3D3D3",
+                                    border: "1px solid #ccc",
                                     borderRadius: "5px",
+                                    backgroundColor: "#E8E8E8",
                                 }}
                             />
                         </div>
@@ -239,8 +240,9 @@ export default function Payment() {
                                 style={{
                                     width: "100%",
                                     padding: "10px",
-                                    border: "1px solid #D3D3D3",
+                                    border: "1px solid #ccc",
                                     borderRadius: "5px",
+                                    backgroundColor: "#E8E8E8",
                                 }}
                             />
                         </div>
@@ -257,8 +259,9 @@ export default function Payment() {
                                 style={{
                                     width: "100%",
                                     padding: "10px",
-                                    border: "1px solid #D3D3D3",
+                                    border: "1px solid #ccc",
                                     borderRadius: "5px",
+                                    backgroundColor: "#E8E8E8",
                                 }}
                             />
                         </div>
@@ -275,8 +278,9 @@ export default function Payment() {
                                 style={{
                                     width: "100%",
                                     padding: "10px",
-                                    border: "1px solid #D3D3D3",
+                                    border: "1px solid #ccc",
                                     borderRadius: "5px",
+                                    backgroundColor: "#E8E8E8",
                                 }}
                             />
                         </div>
@@ -285,7 +289,7 @@ export default function Payment() {
                             type="submit"
                             style={{
                                 width: "100%",
-                                backgroundColor: "#495464",
+                                backgroundColor: "#FF6900",
                                 color: "white",
                                 fontWeight: "bold",
                                 padding: "14px",

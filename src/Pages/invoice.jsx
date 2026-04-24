@@ -150,13 +150,13 @@ export default function Invoice() {
     };
 
     return (
-        <div style={{ padding: "20px", fontFamily: "Arial, sans-serif", background: "#f7f7f7", minHeight: "100vh" }}>
+        <div style={{ padding: "20px", fontFamily: "Arial, sans-serif", background: "#D5D5D5", minHeight: "100vh" }}>
             {/* Download PDF button */}
             <div style={{ textAlign: "right", marginBottom: "20px" }}>
                 <button
                     onClick={downloadInvoice}
                     style={{
-                        background: "#495464",
+                        background: "#FF6900",
                         color: "#fff",
                         border: "none",
                         borderRadius: "6px",
@@ -164,7 +164,7 @@ export default function Invoice() {
                         fontWeight: "bold",
                         fontSize: "16px",
                         cursor: "pointer",
-                        boxShadow: "0 2px 8px rgba(0,0,0,0.07)"
+                        boxShadow: "0 0 10px rgba(0,0,0,0.1)"
                     }}
                 >
                     Download PDF

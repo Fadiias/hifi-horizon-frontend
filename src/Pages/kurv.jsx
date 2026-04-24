@@ -45,7 +45,7 @@ export default function Kurv() {
     };
 
     return (
-        <div>
+        <div style={{ backgroundColor: "#D5D5D5", minHeight: "100vh", padding: "0 0 2rem" }}>
             {/* Steps Progress */}
             <div
                 className="steps-container flex items-center justify-center mb-8 max-w-xs mx-auto"
@@ -64,12 +64,12 @@ export default function Kurv() {
                         style={{
                             background: "#495464",
                             color: "white",
-                            width: "40px",
-                            height: "40px",
+                            width: "50px",
+                            height: "50px",
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "center",
-                            fontSize: "16px",
+                            fontSize: "20px",
                             boxShadow: "0 0 10px rgba(0,0,0,0.53)",
                             cursor: "pointer",
                         }}
@@ -81,9 +81,9 @@ export default function Kurv() {
                 <div
                     style={{
                         flex: 1,
-                        height: "4px",
+                        height: "6px",
                         backgroundColor: "#495464",
-                        margin: "0 10px",
+                        margin: "0 15px",
                     }}
                 ></div>
                 {/* Step 2: Payment */}
@@ -92,12 +92,12 @@ export default function Kurv() {
                         style={{
                             background: "#D3D3D3",
                             color: "#808080",
-                            width: "40px",
-                            height: "40px",
+                            width: "50px",
+                            height: "50px",
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "center",
-                            fontSize: "16px",
+                            fontSize: "20px",
                             boxShadow: "0 0 10px rgba(0,0,0,0.53)",
                             cursor: "pointer",
                         }}
@@ -109,9 +109,9 @@ export default function Kurv() {
                 <div
                     style={{
                         flex: 1,
-                        height: "4px",
+                        height: "6px",
                         backgroundColor: "#D3D3D3",
-                        margin: "0 10px",
+                        margin: "0 15px",
                     }}
                 ></div>
                 {/* Step 3: Invoice */}
@@ -120,12 +120,12 @@ export default function Kurv() {
                         style={{
                             background: "#D3D3D3",
                             color: "#808080",
-                            width: "40px",
-                            height: "40px",
+                            width: "50px",
+                            height: "50px",
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "center",
-                            fontSize: "16px",
+                            fontSize: "20px",
                             boxShadow: "0 0 10px rgba(0,0,0,0.53)",
                         }}
                     >
@@ -200,7 +200,7 @@ export default function Kurv() {
                         <button
                             onClick={handleProceedToPayment}
                             style={{ width: "200px" }}
-                            className="bg-[#FF6900] text-white font-bold py-2 rounded hover:bg-[#3e4b55]"
+                            className="bg-[#FF6900] text-white font-bold py-2 rounded hover:bg-[#e55c00]"
                         >
                             Go to Payment
                         </button>

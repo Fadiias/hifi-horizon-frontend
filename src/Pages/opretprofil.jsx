@@ -1,6 +1,5 @@
-import "./logind.jsx";
 import { useState } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import { z } from "zod";
 
 const schema = z.object({
@@ -139,7 +138,7 @@ export default function OpretProfil() {
       return;
     }
     try {
-      const res = await fetch("http://localhost:3000/api/register", {
+      const res = await fetch("/api/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

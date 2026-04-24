@@ -18,7 +18,7 @@ const style = {
     fontWeight: 700,
     fontSize: "1.2em",
     margin: "1.5em 0 0.5em 0",
-    color: "#ff6a08",
+    color: "#FF6900",
     textAlign: "left",
   },
   label: {

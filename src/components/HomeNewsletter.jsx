@@ -1,4 +1,4 @@
-import { Form } from "react-router"
+import { Form } from "react-router-dom"
 
 export default function HomeNewsletter() {
     return (

@@ -102,8 +102,8 @@ export default function Shop() {
 
 
     return (
-        <>
-            <h1 className="uppercase text-2xl font-bold mb-4">Products</h1>
+        <div style={{ backgroundColor: "#D5D5D5", minHeight: "100vh", padding: "2rem" }}>
+            <h1 className="uppercase text-2xl font-bold mb-4" style={{ color: "#495464" }}>Products</h1>
             <div className="flex justify-between">
                 <ShopSidebar
                     selectedBrand={brand}
@@ -165,6 +165,6 @@ export default function Shop() {
                     )}
                 </section>
             </div>
-        </>
+        </div>
     );
 }
